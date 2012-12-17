@@ -1,0 +1,9 @@
+2. Consult the example programs in the Lab3 directory to see what arguments the client and server programs will need, and specify the arguments you will use.
+
+Server-
+No parameters are required if the port number is hard coded into the program.  You could accept the port number to open the socket on if you needed.
+Syntax: ./ftserve [port#]
+
+Client-
+2 Parameters are required.  You will need to know which server to contact, so accepting a hostname as well as a port number would be two of the commands  Finally you will also need to know which file the client would like to try to retrieve to the server.
+Syntax: ./ftclient <hostname> <port#> <filename>
